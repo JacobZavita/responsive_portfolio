@@ -1,5 +1,5 @@
 .myButton {
-  margin-right: 16px;
+  margin-right: 12px;
 }
 
 .myButton:hover {
@@ -12,8 +12,12 @@
   background-color: turquoise;
 }
 
-.myMargin {
+.myMargin-B {
   margin-bottom: 25px;
+}
+
+.myMargin-T {
+  margin-top: 20px;
 }
 
 html, body {
@@ -27,25 +31,6 @@ html, body {
   font-family: helvetica;
   font-weight: 300
 }
-
-/* I think this was just adding the border to a text? I'll try adding this to myHover below and see what happens. That didn't do anything but don't delete this either */
-
-/* a, button {
-  display: inline-block;
-  padding: 14px 30px;
-  text-decoration: none;
-  color: #243342;
-  letter-spacing: 1.2px;
-  font-size: 14px;
-  border: 1px solid #243342;
-  border-radius: 7px;
-  margin-right: 20px;
-  transition: 0.15s ease-in-out;
-  -webkit-transition: 0.15s ease-in-out;
-  -moz-transition: 0.15s ease-in-out;
-  -ms-transition: 0.15s ease-in-out;
-  -o-transition: 0.15s ease-in-out;
-} */
 
 a.focus, button {
   color: white;
@@ -147,4 +132,14 @@ nav a {
   letter-spacing: 1.2;
   border: none;
   margin: 0
+}
+
+.myMainPic {
+  text-align: center;
+}
+
+@media screen and (max-width: 867px) {
+  .container {
+    align-items: flex-start
+  }
 }

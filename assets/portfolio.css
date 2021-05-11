@@ -10,19 +10,6 @@
     font-weight: 300
   }
 
-  a, button {
-    display: inline-block;
-    padding: 14px 30px;
-    text-decoration: none;
-    color: #243342;
-    letter-spacing: 1.2px;
-    font-size: 14px;
-    border: 1px solid #243342;
-    border-radius: 7px;
-    margin-right: 20px;
-    transition: 0.15s ease-in-out
-  }
-
   a.focus, button {
     color: white;
     background: #243342
@@ -130,4 +117,10 @@
 
   .myMbMargin {
     margin-bottom: 1.5rem !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .container {
+      align-items: center;
+    }
   }
