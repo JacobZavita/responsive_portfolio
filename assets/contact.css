@@ -33,9 +33,14 @@
     color: #1bf1dc
   }
 
-  a:hover {
-    background-color: #243342;
-    color: #16f1d7
+  .myHover:hover {
+    background-color: #de27db;
+    color: #16f1d7;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    border: 0.5px solid #243342;
+    border-radius: 7px;
   }
 
   nav {

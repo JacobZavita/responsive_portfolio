@@ -16,6 +16,59 @@
   margin-bottom: 25px;
 }
 
+html, body {
+  overflow-x: hidden
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  font-weight: 300
+}
+
+/* I think this was just adding the border to a text? I'll try adding this to myHover below and see what happens. That didn't do anything but don't delete this either */
+
+/* a, button {
+  display: inline-block;
+  padding: 14px 30px;
+  text-decoration: none;
+  color: #243342;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  border: 1px solid #243342;
+  border-radius: 7px;
+  margin-right: 20px;
+  transition: 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  -moz-transition: 0.15s ease-in-out;
+  -ms-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+} */
+
+a.focus, button {
+  color: white;
+  background: #243342
+}
+
+a.focus:hover, button:hover {
+  cursor: pointer;
+  color: #1bf1dc
+}
+
+.myHover:hover {
+  background-color: #de27db;
+  color: #16f1d7;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #243342;
+  border-radius: 7px;
+}
+
+/* Start Navigation styling */
+
 nav {
   position: fixed;
   top: 0;
@@ -47,7 +100,7 @@ nav .hamburger:hover {
 }
 
 nav .hamburger:hover span.slice {
-  background-color: #183149
+  background-color: #b9bbbd
 }
 
 nav .hamburger span.slice {
@@ -55,11 +108,7 @@ nav .hamburger span.slice {
   width: 100%;
   height: 2px;
   background-color: white;
-  transition: 0.2s ease-in-out;
-  -webkit-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  -ms-transition: 0.2s ease-in-out;
-  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out
 }
 
 nav.open .hamburger span.cheese.slice {
