@@ -272,6 +272,12 @@
     cursor: pointer
   }
 
+  .mySvgIcon {
+    color: white;
+    width: 20px !important;
+    height: auto;
+  }
+
   @media screen and (max-width: 900px) {
     .content {
       padding: 10px 0 0;
