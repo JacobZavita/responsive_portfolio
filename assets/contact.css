@@ -16,12 +16,16 @@
     text-decoration: none;
     color: #243342;
     letter-spacing: 1.2px;
-    font-size: 14px;
+    font-size: 16px;
     border: 1px solid #243342;
     border-radius: 7px;
     margin-right: 20px;
-    transition: 0.15s ease-in-out
-  }
+    transition: 0.15s ease-in-out  ;
+    -webkit-transition: 0.15s ease-in-out;
+    -moz-transition: 0.15s ease-in-out;
+    -ms-transition: 0.15s ease-in-out;
+    -o-transition: 0.15s ease-in-out;
+}
 
   a.focus, button {
     color: white;
@@ -38,7 +42,7 @@
     color: #16f1d7;
     display: inline-block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     border: 0.5px solid #243342;
     border-radius: 7px;
   }
@@ -108,7 +112,7 @@
   nav h1 {
     color: white;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 1.2px
   }
 
@@ -118,6 +122,7 @@
     display: inline-block;
     padding: 5px 15px;
     font-weight: 300;
+    font-size: 16px;
     letter-spacing: 1.2;
     border: none;
     margin: 0
