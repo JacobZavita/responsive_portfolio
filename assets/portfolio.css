@@ -117,10 +117,24 @@
 
   .myMbMargin {
     margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem
+  }
+
+  .MyPortfolioGrid {
+    margin-left: 2rem;
   }
 
   @media screen and (max-width: 767px) {
     .container {
       align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 875px) {
+    .MyPortfolioGrid {
+      margin-left: 0rem
+    }
+    .btn {
+      margin-left: 7rem
     }
   }
